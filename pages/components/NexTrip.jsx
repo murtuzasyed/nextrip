@@ -64,6 +64,7 @@ const NexTrip = (props) => {
   useEffect(async () => {
     if (!isReady) return;
     const {route, direction, stop} = query;
+    if((!route || !route.length) || (typeof direction === "undefined") || (!stop|| !stop.length)) return;
     // const [currentRoute, currentDirection, currentStop] = query.slug;
     const stopDetails = await fetchStopDetails(route, direction, stop)
     setStopDetails(stopDetails);
