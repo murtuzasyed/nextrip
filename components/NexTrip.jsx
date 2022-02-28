@@ -3,7 +3,7 @@ import Router, { useRouter } from 'next/router'
 import CustomSelect from "./CustomSelect";
 import StopDetail from "./StopDetail";
 import styles from './NexTrip.module.css';
-import { fetchDirections, fetchStops, fetchStopDetails } from "../../helpers/data";
+import { fetchDirections, fetchStops, fetchStopDetails } from "../helpers/data";
 import classNamesBind from 'classnames/bind';
 
 const cx = classNamesBind.bind(styles);
@@ -26,7 +26,7 @@ const NexTrip = (props) => {
   
   
   const onRouteSelected = async(route) => {
-    // Rest the stops and directions state when a different route is selected
+    // Reset the stops and directions state when a different route is selected
     setStops([]);
     setDirections([]);
     setStopDetails({});
@@ -47,10 +47,7 @@ const NexTrip = (props) => {
   };
 
   const onStopSelected = async (currentStop) => {
-    // const href =`/${currentRoute}/${currentDirection}/${currentStop}`;
-    // router.push(href, undefined, { shallow: true });
     const href = `/?route=${currentRoute}&direction=${currentDirection}&stop=${currentStop}`;
-
     Router.push(href, href, { shallow: true })
     const { id, description, departures } = await fetchStopDetails(currentRoute, currentDirection, currentStop);
     setStopDetails({
@@ -65,7 +62,6 @@ const NexTrip = (props) => {
     if (!isReady) return;
     const {route, direction, stop} = query;
     if((!route || !route.length) || (typeof direction === "undefined") || (!stop|| !stop.length)) return;
-    // const [currentRoute, currentDirection, currentStop] = query.slug;
     const stopDetails = await fetchStopDetails(route, direction, stop)
     setStopDetails(stopDetails);
   }, [isReady, query])

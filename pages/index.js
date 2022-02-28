@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { fetchRoutes } from '../helpers/data';
-import NexTrip from './components/NexTrip';
+import NexTrip from '../components/NexTrip';
 
 export default function Home(props) {
   return (
