@@ -1,0 +1,10 @@
+.stopdetail-container {
+  display: flex;
+  flex-direction: column;
+}
+.stopdetail-description {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+

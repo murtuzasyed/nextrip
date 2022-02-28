@@ -1,0 +1,130 @@
+{
+  "stops": [
+    {
+      "stop_id": 11111,
+      "latitude": 44.854277,
+      "longitude": -93.238877,
+      "description": "Mock Stop"
+    }
+  ],
+  "alerts": [],
+  "departures": [
+    {
+      "actual": false,
+      "trip_id": "20248883-DEC21-RAIL-Sunday-01",
+      "stop_id": 51405,
+      "departure_text": "6:44",
+      "departure_time": 1646009040,
+      "description": "to Mpls-Target Field",
+      "route_id": "901",
+      "route_short_name": "Green",
+      "direction_id": 0,
+      "direction_text": "NB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "20248978-DEC21-RAIL-Sunday-01",
+      "stop_id": 51405,
+      "departure_text": "6:54",
+      "departure_time": 1646009640,
+      "description": "to Mpls-Target Field",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 0,
+      "direction_text": "NB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "20248974-DEC21-RAIL-Sunday-01",
+      "stop_id": 51405,
+      "departure_text": "7:04",
+      "departure_time": 1646010240,
+      "description": "to Mpls-Target Field",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 0,
+      "direction_text": "NB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "20248877-DEC21-RAIL-Sunday-01",
+      "stop_id": 51405,
+      "departure_text": "7:18",
+      "departure_time": 1646011080,
+      "description": "to Mpls-Target Field",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 0,
+      "direction_text": "NB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "20248885-DEC21-RAIL-Sunday-01",
+      "stop_id": 51405,
+      "departure_text": "7:33",
+      "departure_time": 1646011980,
+      "description": "to Mpls-Target Field",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 0,
+      "direction_text": "NB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "20248887-DEC21-RAIL-Sunday-01",
+      "stop_id": 51405,
+      "departure_text": "7:47",
+      "departure_time": 1646012820,
+      "description": "to Mpls-Target Field",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 0,
+      "direction_text": "NB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "20248884-DEC21-RAIL-Sunday-01",
+      "stop_id": 51405,
+      "departure_text": "8:02",
+      "departure_time": 1646013720,
+      "description": "to Mpls-Target Field",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 0,
+      "direction_text": "NB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "20248888-DEC21-RAIL-Sunday-01",
+      "stop_id": 51405,
+      "departure_text": "8:17",
+      "departure_time": 1646014620,
+      "description": "to Mpls-Target Field",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 0,
+      "direction_text": "NB",
+      "schedule_relationship": "Scheduled"
+    },
+    {
+      "actual": false,
+      "trip_id": "20248886-DEC21-RAIL-Sunday-01",
+      "stop_id": 51405,
+      "departure_text": "8:32",
+      "departure_time": 1646015520,
+      "description": "to Mpls-Target Field",
+      "route_id": "901",
+      "route_short_name": "Blue",
+      "direction_id": 0,
+      "direction_text": "NB",
+      "schedule_relationship": "Scheduled"
+    }
+  ]
+}
