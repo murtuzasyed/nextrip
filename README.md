@@ -7,7 +7,8 @@
 
 1. `npm install`
 2. `npm run build` to build the assets
-3. `npm run start` to start the server
+3. `npm run start` to start the application
+4. Within any browser enter `http://localhost:3000` to access the application
 
 ### Run test
 1. `npm run test:integration` to test integration test using cypress
